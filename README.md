@@ -1,1 +1,1 @@
-# This is a python training on using the selenium and requests libaries for python
+# This is a python training on using the selenium and requests libaries.
