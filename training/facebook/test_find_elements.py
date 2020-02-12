@@ -11,7 +11,8 @@
 #             You have already installed and started doing “Hello World” applications in python. Try following:
 #                         Go to facebook.com
 #                         Find the Button/Element “Sign Up”
-#                         Bonus – Put a name into the First name field.
+#Bonus –
+#       Put a name into the First name field.
 
 import json
 import time
@@ -32,6 +33,8 @@ def test_face_book_sign_up():
     print(test)
     assert test is True
     driver.close()
+
+####################BONUS####################
 
 def test_name_in_first_name_field():
     driver = webdriver.Chrome(
